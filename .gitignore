@@ -1,0 +1,13 @@
+.env*
+.env/
+test/
+json/
+rendered/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+oauth2.json
+

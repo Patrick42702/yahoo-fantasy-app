@@ -1,0 +1,8 @@
+services:
+  app:
+    container_name: yahoo_api_app
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    env_file:
+      - env/.env
