@@ -14,3 +14,6 @@ def get_teams(league_id):
     league = game.to_league(league_id)
     return league.teams()
 
+def get_matchups(league_id):
+    league = game.to_league(league_id)
+    return league.matchups(10)
